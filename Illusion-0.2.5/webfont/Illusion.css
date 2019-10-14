@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Illusion N';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Illusion N'),
+    local('Illusion-N'),
+    url(./Illusion-N-Regular.woff2) format('woff2'),
+    url(./Illusion-N-Regular.woff) format('woff'),
+    url(./Illusion-N-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Illusion N';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local('Illusion N Italic'),
+    local('Illusion-N-Italic'),
+    url(./Illusion-N-Italic.woff2) format('woff2'),
+    url(./Illusion-N-Italic.woff) format('woff'),
+    url(./Illusion-N-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Illusion N';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Illusion N Bold'),
+    local('Illusion-N-Bold'),
+    url(./Illusion-N-Bold.woff2) format('woff2'),
+    url(./Illusion-N-Bold.woff) format('woff'),
+    url(./Illusion-N-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Illusion N';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local('Illusion N BoldItalic'),
+    local('Illusion-N-BoldItalic'),
+    url(./Illusion-N-BoldItalic.woff2) format('woff2'),
+    url(./Illusion-N-BoldItalic.woff) format('woff'),
+    url(./Illusion-N-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Illusion W';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Illusion W'),
+    local('Illusion-W'),
+    url(./Illusion-W-Regular.woff2) format('woff2'),
+    url(./Illusion-W-Regular.woff) format('woff'),
+    url(./Illusion-W-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Illusion W';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local('Illusion W Italic'),
+    local('Illusion-W-Italic'),
+    url(./Illusion-W-Italic.woff2) format('woff2'),
+    url(./Illusion-W-Italic.woff) format('woff'),
+    url(./Illusion-W-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Illusion W';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Illusion W Bold'),
+    local('Illusion-W-Bold'),
+    url(./Illusion-W-Bold.woff2) format('woff2'),
+    url(./Illusion-W-Bold.woff) format('woff'),
+    url(./Illusion-W-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Illusion W';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local('Illusion W BoldItalic'),
+    local('Illusion-W-BoldItalic'),
+    url(./Illusion-W-BoldItalic.woff2) format('woff2'),
+    url(./Illusion-W-BoldItalic.woff) format('woff'),
+    url(./Illusion-W-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Illusion Z';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Illusion Z'),
+    local('Illusion-Z'),
+    url(./Illusion-Z-Regular.woff2) format('woff2'),
+    url(./Illusion-Z-Regular.woff) format('woff'),
+    url(./Illusion-Z-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Illusion Z';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local('Illusion Z Italic'),
+    local('Illusion-Z-Italic'),
+    url(./Illusion-Z-Italic.woff2) format('woff2'),
+    url(./Illusion-Z-Italic.woff) format('woff'),
+    url(./Illusion-Z-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Illusion Z';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Illusion Z Bold'),
+    local('Illusion-Z-Bold'),
+    url(./Illusion-Z-Bold.woff2) format('woff2'),
+    url(./Illusion-Z-Bold.woff) format('woff'),
+    url(./Illusion-Z-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Illusion Z';
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local('Illusion Z BoldItalic'),
+    local('Illusion-Z-BoldItalic'),
+    url(./Illusion-Z-BoldItalic.woff2) format('woff2'),
+    url(./Illusion-Z-BoldItalic.woff) format('woff'),
+    url(./Illusion-Z-BoldItalic.ttf) format('truetype');
+}
