@@ -10,11 +10,22 @@
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css">
     <link href="fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
     <style type="text/css">
+      ::-webkit-scrollbar {
+      width: 5px !important;  /* remove scrollbar space */
+      background: transparent !important;  /* optional: just make scrollbar invisible */
+      background-color: transparent !important;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+          background: #FFDBED !important;
+          border-radius: 5px !important;
+      }
+
       @font-face {
         font-family: Illusion;
         src: url("./Illusion-0.2.5/webfont/Illusion-N-Regular.woff2"),
         url("./Illusion-0.2.5/webfont/Illusion-W-Regular.woff2"),
-        url("./Illusion-0.2.5/webfont/Illusion-Z-Regular.woff2"),  
+        url("./Illusion-0.2.5/webfont/Illusion-Z-Regular.woff2"),
         url("./Illusion-0.2.5/webfont/Illusion-N-Regular.woff"),
         url("./Illusion-0.2.5/webfont/Illusion-W-Regular.woff"),
         url("./Illusion-0.2.5/webfont/Illusion-Z-Regular.woff"),
@@ -22,11 +33,12 @@
         url("./Illusion-0.2.5/webfont/Illusion-W-Regular.ttf"),
         url("./Illusion-0.2.5/webfont/Illusion-Z-Regular.ttf");
       }
+      
       @font-face {
         font-family: Illusion-B;
         src: url("./Illusion-0.2.5/webfont/Illusion-N-Bold.woff2"),
         url("./Illusion-0.2.5/webfont/Illusion-W-Bold.woff2"),
-        url("./Illusion-0.2.5/webfont/Illusion-Z-Bold.woff2"),  
+        url("./Illusion-0.2.5/webfont/Illusion-Z-Bold.woff2"),
         url("./Illusion-0.2.5/webfont/Illusion-N-Bold.woff"),
         url("./Illusion-0.2.5/webfont/Illusion-W-Bold.woff"),
         url("./Illusion-0.2.5/webfont/Illusion-Z-Bold.woff"),
@@ -34,11 +46,12 @@
         url("./Illusion-0.2.5/webfont/Illusion-W-Bold.ttf"),
         url("./Illusion-0.2.5/webfont/Illusion-Z-Bold.ttf");
       }
+      
       @font-face {
         font-family: Illusion-I;
         src: url("./Illusion-0.2.5/webfont/Illusion-N-Italic.woff2"),
         url("./Illusion-0.2.5/webfont/Illusion-W-Italic.woff2"),
-        url("./Illusion-0.2.5/webfont/Illusion-Z-Italic.woff2"),  
+        url("./Illusion-0.2.5/webfont/Illusion-Z-Italic.woff2"),
         url("./Illusion-0.2.5/webfont/Illusion-N-Italic.woff"),
         url("./Illusion-0.2.5/webfont/Illusion-W-Italic.woff"),
         url("./Illusion-0.2.5/webfont/Illusion-Z-Italic.woff"),
@@ -46,15 +59,10 @@
         url("./Illusion-0.2.5/webfont/Illusion-W-Italic.ttf"),
         url("./Illusion-0.2.5/webfont/Illusion-Z-Italic.ttf");
       }
-      
-      ::-webkit-scrollbar {
-      width: 5px;  /* remove scrollbar space */
-      background: transparent !important;  /* optional: just make scrollbar invisible */
-      }
-      
-      ::-webkit-scrollbar-thumb {
-          background: #FFDBED !important;
-          border-radius: 5px;
+
+      .bg-sakura {
+        background: #FFDBED !important;
+        background-color: #FFDBED !important;
       }
     </style>
   </head>
@@ -68,9 +76,9 @@
             <a class="navbar-brand" href="///" alt="#Top"><i class="fas fa-home"></i> Home</a>
             <a class="navbar-brand text-secondary">|</a>
             <a class="navbar-brand" href="///" alt="#Section-Katudo"><i class="fas fa-user"></i> 個人活動</a>
-            <a class="navbar-brand" href="///" alt="#Section-Sakuhin"><i class="fab fa-adobe"></i> 作品集</a>
-            <a class="navbar-brand" href="///" alt="#"><i class="far fa-file-alt"></i> 個人シート</a>
-            <a class="navbar-brand" href="///" alt="#"><i class="far fa-keyboard"></i> 言葉</a>
+            <a class="navbar-brand" href="///" alt="#Section-Hakubutukan"><i class="fab fa-adobe"></i> 博物館</a>
+            <a class="navbar-brand" href="///" alt="#Section-HimituTechou"><i class="far fa-file-alt"></i> ひみつ手帳</a>
+            <a class="navbar-brand" href="///" alt="#Section-Kotoba"><i class="far fa-keyboard"></i> 言葉</a>
             <a class="navbar-brand text-secondary">|</a>
             <a class="navbar-brand" href="///" alt="#footer"><i class="fas fa-info"></i> More</a>
           </div>
@@ -139,6 +147,7 @@
                   </tr>
                 </tbody>
               </table>
+              <br>
               <table class="table table-striped">
                 <thead>
                   <th scope="col">＞発想＿</th>
@@ -296,17 +305,49 @@
     </div>
     <!--　↑　第三セクター　↑　-->
     <!--　↓　第四セクター　↓　-->
-    <div class="container d-flex vh-100" id="Section-Sakuhin">
+    <div class="container-max vh-100 bg-warning" id="Section-Katudo" style="overflow: hidden;">
+      <div class="container d-flex vh-100" id="Section-Hakubutukan">
+        <div class="row align-self-center w-100">
+          <div class="col-5"></div>
+          <div class="col-5"></div>
+          <div class="col-2">
+            <h1 class="h1">博物館</h1>
+            <p class="text-secondary">
+              色んなメイド喫茶へ巡りしました。
+              その中にも大部ツーショットチェキを撮りました。<br>
+              あとは一部の食事写真もあるので、最高の記憶として、ここに整理します。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--　↑　第四セクター　↑　-->
+    <!--　↓　第五セクター　↓　-->
+    <div class="container-max vh-100 bg-sakura" id="Section-Katudo" style="overflow: hidden;">
+      <div class="container d-flex vh-100" id="Section-HimituTechou">
+        <div class="row align-self-center">
+          <div class="col">
+            <h1 class="h1">ひみつ手帳</h1>
+            <p>
+              this is me.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--　↑　第五セクター　↑　-->
+    <!--　↓　第六セクター　↓　-->
+    <div class="container d-flex vh-100" id="Section-Kotoba">
       <div class="row align-self-center">
         <div class="col">
-          <h1 class="h1">作品集</h1>
+          <h1 class="h1">言葉</h1>
           <p>
             this is me.
           </p>
         </div>
       </div>
     </div>
-    <!--　↑　第四セクター　↑　-->
+    <!--　↑　第六セクター　↑　-->
     <!--　↓　足の蛇　↓　-->
     <div class="container-max vh-100" id="footer" style="overflow: hidden;">
       <div class="row bg-secondary" style="height: 20%"></div>
@@ -318,7 +359,15 @@
         <div class="col-1"></div>
         <div class="col-3 d-flex flex-column">
           <h1 class="h1 text-white">ChangeLog</h1>
-          <p>以前なくたサイトを再作成。</p>
+          <p>
+            令和1年10月13日　-　以前なくたサイトを再作成。<br>
+            令和1年10月14日　-　サイト構造再作成。<br>
+            令和1年10月19日　-　基本レイアウト完成。<br>
+            令和2年9月7日　-　メインセクション再構成。<br>
+            令和2年9月9日　-　個人プロフィール完成。<br>
+            令和2年9月10日　-　各セクション再デザイン。<br>
+            令和2年9月11日　-　内容追加。<br>
+          </p>
         </div>
         <div class="col-1"></div>
         <div class="col-3 d-flex flex-column">
