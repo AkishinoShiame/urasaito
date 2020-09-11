@@ -24,10 +24,29 @@
       }
       @font-face {
         font-family: Illusion-B;
-        src: url("./Illusion-0.2.5/webfont/Illusion-N-Bold.woff2"), 
+        src: url("./Illusion-0.2.5/webfont/Illusion-N-Bold.woff2"),
+        url("./Illusion-0.2.5/webfont/Illusion-W-Bold.woff2"),
+        url("./Illusion-0.2.5/webfont/Illusion-Z-Bold.woff2"),  
         url("./Illusion-0.2.5/webfont/Illusion-N-Bold.woff"),
-        url("./Illusion-0.2.5/webfont/Illusion-N-Bold.ttf");
+        url("./Illusion-0.2.5/webfont/Illusion-W-Bold.woff"),
+        url("./Illusion-0.2.5/webfont/Illusion-Z-Bold.woff"),
+        url("./Illusion-0.2.5/webfont/Illusion-N-Bold.ttf"),
+        url("./Illusion-0.2.5/webfont/Illusion-W-Bold.ttf"),
+        url("./Illusion-0.2.5/webfont/Illusion-Z-Bold.ttf");
       }
+      @font-face {
+        font-family: Illusion-I;
+        src: url("./Illusion-0.2.5/webfont/Illusion-N-Italic.woff2"),
+        url("./Illusion-0.2.5/webfont/Illusion-W-Italic.woff2"),
+        url("./Illusion-0.2.5/webfont/Illusion-Z-Italic.woff2"),  
+        url("./Illusion-0.2.5/webfont/Illusion-N-Italic.woff"),
+        url("./Illusion-0.2.5/webfont/Illusion-W-Italic.woff"),
+        url("./Illusion-0.2.5/webfont/Illusion-Z-Italic.woff"),
+        url("./Illusion-0.2.5/webfont/Illusion-N-Italic.ttf"),
+        url("./Illusion-0.2.5/webfont/Illusion-W-Italic.ttf"),
+        url("./Illusion-0.2.5/webfont/Illusion-Z-Italic.ttf");
+      }
+      
       ::-webkit-scrollbar {
       width: 5px;  /* remove scrollbar space */
       background: transparent !important;  /* optional: just make scrollbar invisible */
@@ -97,8 +116,7 @@
     <div class="container d-flex vh-100" id="Section-More">
       <div class="row align-self-center w-100">
         <div class="col">
-          <span><br><br><br></span>
-          <h1 class="h1">自己紹介</h1>
+          <h1 class="h1" style="padding-top:2.3em !important;">自己紹介</h1>
           <div class="row">
             <div class="col-6">
               <table class="table table-striped">
@@ -117,7 +135,7 @@
                   </tr>
                   <tr>
                     <th scope="row">令和2年2月</th>
-                    <td>日立：ITD部＞エンジニア</td>
+                    <td>日立：ITD部＞エンジニア　（現在に至る）</td>
                   </tr>
                 </tbody>
               </table>
@@ -199,12 +217,79 @@
     <!--　↓　第三セクター　↓　-->
     <div class="container-max vh-100 bg-info" id="Section-Katudo" style="overflow: hidden;">
       <div class="container d-flex vh-100">
-        <div class="row align-self-center w-100">
-          <div class="col">
+        <div class="row align-self-center w-100" style="margin-top:3em;">
+          <div class="col-3">
+            <p style="padding-top: 5em;"></p>
             <h1 class="h1">個人活動</h1>
-            <p>
-              this is me.
+            <p class="text-dark align-middle" style="font-family: Illusion-B;">
+              趣味として、個性的な好奇心も溢れていますから、色んな事や物をやりたいと試したいです。<br>
+              それなりに、その為に、色んな活動がやっています。<br>
+              <br><br><br>
             </p>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-4">
+            <div class="alert alert-primary" role="alert">
+              オタク
+            </div>
+            <div class="card" style="margin: 10px;">
+              <div class="card-header">
+                Youtuber
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>
+                    <small>
+                      まだ学生時代の時は、色んなはゲーム配信やyoutube動画を見ました。
+                      ボカロの影響でもあり、自分がyoutubeで動画制作とアップロードを試した。
+                    </small>
+                  </p>
+                  <footer class="blockquote-footer">
+                    <small>
+                      雨詩チャンネル from <cite title="Source Title"><a class="text-reset" href="https://www.youtube.com/user/YuShi130117" target="_blank">youtube</a></cite>
+                    </small>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+            <div class="card" style="margin: 10px;">
+              <div class="card-header">
+                メイド喫茶
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>
+                    <small>
+                      アニメからの影響で、メイド喫茶の実態を体験したいを原因として、色んなメイド喫茶へ行きました。
+                      主に台湾と日本のメイド喫茶を巡ります。
+                    </small>
+                  </p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="alert alert-success" role="alert">
+              専門
+            </div>
+            <div class="card" style="margin: 10px;">
+              <div class="card-header">
+                テクニカル活動
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>
+                    <small>
+                      小さいからはパソコンと関係な知識に一目惚れしたから、システムと関連な活動へ巡りする。<br>
+                      学生時代はクラウドワークスとAI・深層学習を研究していたから、AWS、GCPとAzureなどの活動も興味持つで参加します。<br>
+                      他とは、上に述べたの関連として、LinuxやOpenStackなどのイベントもある程度で参加します。<br>
+                      <br>人生は・元々、夢の為に生きてます。
+                    </small>
+                  </p>
+                  <footer class="blockquote-footer text-right" style="font-family: Illusion;">秋篠詩雨 ＠ <cite title="Source Title" style="font-family: Illusion-I !important;">Ore Ga Source</cite></footer>
+                </blockquote>
+              </div>
+            </div>
           </div>
         </div>
       </div>
