@@ -13,4 +13,9 @@ $(document).ready(function(){
             scrollTop: $(TargetToSmooth).offset().top
         }, 500);
     });
+
+    var ObjectFrame = document.getElementById('object');
+    ObjectFrame.onload = function(){
+        ObjectFrame.contentWindow.scrollTop(0,200);
+    }
 });
