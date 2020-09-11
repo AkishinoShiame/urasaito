@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('html, body').scrollTop(0);
     $('.navbar-brand').click(function(e){
         e.preventDefault();
         var TargetToSmooth = $(this).attr('alt');
@@ -13,9 +14,4 @@ $(document).ready(function(){
             scrollTop: $(TargetToSmooth).offset().top
         }, 500);
     });
-
-    var ObjectFrame = document.getElementById('object');
-    ObjectFrame.onload = function(){
-        ObjectFrame.contentWindow.scrollTop(0,200);
-    }
 });
