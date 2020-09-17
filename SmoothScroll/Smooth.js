@@ -14,4 +14,9 @@ $(document).ready(function(){
             scrollTop: $(TargetToSmooth).offset().top
         }, 500);
     });
+
+    $('.err').click(function(e){
+        e.preventDefault();
+        alert("ごめんなさい、何も撮れなかった。○|￣|_");
+    });
 });
